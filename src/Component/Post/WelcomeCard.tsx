@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
-export const MainFeaturedPost = (props: any) => {
+export const WelcomeCard = (props: any) => {
   const { post } = props;
 
   return (

@@ -6,7 +6,7 @@ import CardActionArea from '@mui/material/CardActionArea';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 
-function FeaturedPost(props:any) {
+export const FeatureCard =(props:any) =>{
   const { post } = props;
 
   return (
@@ -38,5 +38,3 @@ function FeaturedPost(props:any) {
     </Grid>
   );
 }
-
-export default FeaturedPost;

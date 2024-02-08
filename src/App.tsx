@@ -5,19 +5,20 @@ import { MainFeaturedPost } from './Component/Home/MainPost/MainFeaturedPost';
 import FeaturedPost from './Component/Home/FeaturePost/FeaturedPost';
 import Footer from './Dashboard/Footer/Footer';
 import { Header } from './Dashboard/Header/Header';
+import { Routers } from './Routers';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Grid container spacing={2} marginTop={10}>
+      <Routers/>
+      {/* <Grid container spacing={2} marginTop={10}>
         <Grid item xs={12}>
           <MainFeaturedPost post={mainFeaturedPost} />
         </Grid>
         {featuredPosts.map((post) => (
               <FeaturedPost key={post.title} post={post} />
             ))}
-      </Grid>
+      </Grid> */}
       <Footer />
     </div>
   );
