@@ -11,7 +11,6 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import EngineeringSharpIcon from "@mui/icons-material/EngineeringSharp";
 import "./Header.css";
 import { Link } from "react-router-dom";
 const pages = ["Home", "About", "Contacts"];
@@ -41,9 +40,9 @@ export const Header = () => {
   };
 
   return (
-    <AppBar position={"fixed"}>
-      <Container>
-        <Toolbar className="toolbar" style={{}}>
+    <AppBar position={"fixed"} >
+      <Container >
+        <Toolbar className="toolbar">
           <Typography
             variant="h4"
             noWrap

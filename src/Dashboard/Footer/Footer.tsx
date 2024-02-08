@@ -17,14 +17,14 @@ function Footer() {
           <Grid item xs={12} sm={6}>
             <Typography variant="body2" color="textSecondary" align="right">
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/amit-kumar-4a356a192/"
                 target="https://www.linkedin.com/in/amit-kumar-4a356a192/"
                 rel="noopener noreferrer"
               >
                 <LinkedInIcon className="social-icon" />
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/REGNOR123"
                 target="https://github.com/REGNOR123"
                 rel="noopener noreferrer"
               >
