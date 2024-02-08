@@ -1,23 +1,20 @@
 .root {
-  display: 'flex';
-  flex-Direction: 'column';
-  min-Height: '100vh';
+  display: "flex";
+  flex-direction: "column";
+  min-height: "100vh";
 }
 .appBar {
-  z-Index: 1000
+  z-index: 1000;
 }
 .content {
-  flex-Grow: 1;
-  padding: '20px';
-}
-.footer {
-  /* margin-Top: 'auto'; */
+  flex-grow: 1;
+  padding: "20px";
 }
 .navbar {
-  display: 'flex';
-  justify-Content: 'space-between';
-  padding: '10px 20px';
+  display: "flex";
+  justify-content: "space-between";
+  padding: "10px 20px";
 }
-nav, Link {
-  margin-Right: '20px';
+Link {
+  margin-right: "20px";
 }

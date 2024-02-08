@@ -1,20 +1,20 @@
-import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import CardActionArea from '@mui/material/CardActionArea';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
+import * as React from "react";
+import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
+import Card from "@mui/material/Card";
+import CardActionArea from "@mui/material/CardActionArea";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
 
-export const FeatureCard =(props:any) =>{
+export const FeatureCard = (props: any) => {
   const { post } = props;
 
   return (
-    <Grid item xs={6} md={3} spacing={4}>
+    <Grid item xs={6} md={4} spacing={4} marginBottom={2}>
       <CardActionArea component="a" href="#">
-        <Card sx={{ display: 'flex' }}>
+        <Card sx={{ display: "flex" }}>
           <CardContent sx={{ flex: 1 }}>
-            <Typography component="h2" variant="h6" >
+            <Typography component="h2" variant="h6">
               {post.title}
             </Typography>
             <Typography variant="subtitle1" color="text.secondary">
@@ -37,4 +37,4 @@ export const FeatureCard =(props:any) =>{
       </CardActionArea>
     </Grid>
   );
-}
+};
