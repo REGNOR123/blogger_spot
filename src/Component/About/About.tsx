@@ -14,7 +14,7 @@ export const About = () => {
           }}
         >
           <Typography component="h3" variant="h2">
-            About Page Work In Progress.....
+            About Work In Progress.....
           </Typography>
         </Box>
       </Grid>
